@@ -1,0 +1,29 @@
+.main-cart-page{
+    max-width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    /* background-color: bisque; */
+}
+.cart-header{
+    font-size: 25px;
+}
+.child-cart{
+    font-weight: 500;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.child-cart-outter{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+.child-cart-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}

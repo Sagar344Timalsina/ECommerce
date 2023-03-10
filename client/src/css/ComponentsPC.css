@@ -1,0 +1,28 @@
+.mainComputer-components{
+    max-width: 90%;
+    margin: 5rem auto;
+   
+}
+.child-components{
+    margin: 25px;
+    padding-left:4rem ;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+.card-components{
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: rgb(173, 173, 173);
+    cursor: pointer;
+}
+.right-components{
+    font-weight: 600;
+    padding-top: 15px;
+color: rgb(250, 250, 250);
+}
+img{
+    border-radius: 15px;
+    width: 250px;
+    height:250px;
+}

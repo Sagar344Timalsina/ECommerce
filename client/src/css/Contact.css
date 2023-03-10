@@ -1,0 +1,14 @@
+.main-contact{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90vw;
+}
+.child-contact{
+    margin-top: 6rem;
+    width: 60%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}

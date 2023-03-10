@@ -1,0 +1,28 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-326789: #326789;
+  --color-78A6c8: #78A6c8;
+  --color-E9EEF2: #E9EEF2;
+  --color-E65C4F: #E65C4F;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  min-height: 100vh;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.right-top-nav>ul li {
+  list-style-type: none;
+}

@@ -1,0 +1,27 @@
+.contact-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.heading-about {
+    text-align: center;
+    /* margin: 20px; */
+    
+}
+.child-about{
+    width: 60%;
+}
+.left-about ,.mid-about,.right-about{
+    width:25%;
+}
+
+.child-about {
+    margin-top: 3rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    /* width: 25%; */
+}
