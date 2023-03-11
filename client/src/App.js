@@ -22,7 +22,10 @@ import Profile from './pages/User/Profile';
 import MainLayout from './components/MainLayout';
 import CreateCategory from './pages/Admin/CreateCategory';
 import CreateProduct from './pages/Admin/CreateProduct';
+import UpdateProduct from './pages/Admin/UpdateProduct';
 import Search from './components/Search';
+import Products from './pages/Admin/Products';
+import AdminOrders from './pages/Admin/AdminOrders';
 // import{Toaster} from 'react-hot-toast';
 function App() {
   return (
@@ -48,7 +51,9 @@ function App() {
           {/* <Route path='admin' element={<MainLayout />} /> */}
           <Route path='Admin/create-category' element={<CreateCategory />} />
           <Route path='Admin/create-product' element={<CreateProduct />} />
-          <Route path='Admin/orders' element={<CreateProduct />} />
+          <Route path='Admin/update-product/:slug' element={<UpdateProduct />} />
+          <Route path='Admin/Products' element={<Products />} />
+          <Route path='Admin/orders' element={<AdminOrders />} />
 
         </Route>
 
