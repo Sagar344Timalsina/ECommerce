@@ -9,7 +9,7 @@ const forgotPasswordController = require('../controllers/AdminAuthenticationCont
 const updateProfileController = require('../controllers/AdminAuthenticationController/updateProfile');
 const { isUser, requireUserSignIn } = require("../middlewares/authmiddleware");
 const GetOrdersController = require("../controllers/OrderController/GetOrdersController");
-const PostOrder=require("../controllers/OrderController/PostOrder");
+const PostOrder = require("../controllers/OrderController/PostOrder");
 
 
 //REGISTER ADMIN
@@ -39,9 +39,9 @@ router.get("/user-auth", requireUserSignIn, isUser, (req, res) => {
 router.put("/profile", requireSignIn, updateProfileController);
 
 // orders
-router.get('/orders',requireSignIn,GetOrdersController);
+router.get('/orders', requireSignIn, GetOrdersController);
 
 //OrderPost
-router.post("/orderPost",requireSignIn,PostOrder)
+router.post("/orderPost", requireSignIn, PostOrder)
 
 module.exports = router;
